@@ -15,7 +15,7 @@ class Series():
         series_1 = pd.Series(dict, name='data_1')
         return series_1
 
-    # 自定义索引创建
+    # 自定义索引创建series
     def create_from_index(self, arr, index):
         series_2 = pd.Series(arr, index=index, name='data_2')
         return series_2

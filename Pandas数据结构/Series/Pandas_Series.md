@@ -91,5 +91,5 @@ print(s + s)           # 对应元素相加
 print(np.log(s))       # 对每个元素取对数
 Series 是 Pandas 的基础，DataFrame 实际上是由多个 Series 组成的。理解 Series 是掌握 Pandas 的关键。
 
-详见：
+菜鸟教程讲解：
 https://www.runoob.com/pandas/pandas-series.html
