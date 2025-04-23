@@ -41,7 +41,5 @@ print(result_2, '\n', '该series的索引1的值为：', result_2[1])
 result_3 = Series().create_from_index(arr_1, arr)
 print(result_3, '\n', '该series的索引1的值为：', result_3[1])
 result_4 = Series().index_alignment(arr, dict_1, index_1)
-print(result_4, '\n', '该series的缺失值为：', result_4.isna())
-
-
-
+print(result_4, '\n', '该series的缺失值为：' )
+print(result_4.isna())
