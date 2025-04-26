@@ -3,14 +3,14 @@ import pandas as pd
 
 # 从列表创建
 # data = [['张三', 18], ['李四', 19], ['王五', 20]]
-# df = pd.DataFrame(data, columns=['name', 'age'])
+# df = pd.2.Pandas_DataFrame(data, columns=['name', 'age'])
 # df['name'] = df['name'].astype(str)
 # df['age'] = df['age'].astype(int)
 # print(df)
 
 # 从字典创建
 # data = {'name': ['Mahongyu', 'Peichen', 'Wuhu'], 'professional': ['Student', 'unemployment', 'King']}
-# df = pd.DataFrame(data)
+# df = pd.2.Pandas_DataFrame(data)
 # df['name'] = df['name'].astype(str)
 # df['professional'] = df['professional'].astype(str)
 # print(df)
@@ -20,7 +20,7 @@ import pandas as pd
 #                 ['Mahongyu', '19', 'ShangHai'],
 #                 ['Wuhu', '20', 'Shenzhen']
 #                 ])
-# df = pd.DataFrame(arr,columns=['Name', 'Age', 'Address'])
+# df = pd.2.Pandas_DataFrame(arr,columns=['Name', 'Age', 'Address'])
 # print(df)
 
 # DataFrame数据访问

@@ -20,7 +20,7 @@ class Series():
         series_2 = pd.Series(arr, index=index, name='data_2')
         return series_2
 
-    # Series 索引对齐
+    # 1.Pandas_Series 索引对齐
     # Pandas 的一个强大特性是索引自动对齐：
     def index_alignment(self, arr, dict, index):
         series_3 = pd.Series(arr, index=index, name='data_3')

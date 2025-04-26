@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
-from faker import Faker
 import random
+
+from faker import Faker
 
 '''
 生成随机数据用于测试Pandas中Excel的文件操作
