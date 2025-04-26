@@ -50,8 +50,8 @@ def generate_female_data(num):
 
 
 # 生成各100条数据
-male_df = generate_male_data(500)
-female_df = generate_female_data(500)
+male_df = generate_male_data(100)
+female_df = generate_female_data(100)
 
 # 查看生成的数据样例
 print("男生数据样例:")
